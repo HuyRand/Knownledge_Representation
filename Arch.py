@@ -209,7 +209,7 @@ def insert_knowlegde(User):
     List_vertex.append(vertex("Gen Z đói việc chấp nhận đi làm xa nhà hơn 20km, làm thế nào để không muốn vứt bỏ tất cả sau một ngày dài kiệt quệ? ",['thế hệ Z'],[],Filter))
 
     Filter = seach_space(None,None,['Hóc Môn','Bình Chánh','Nhà Bè','Cần Giờ'],2, None,2)
-    List_vertex.append(vertex("Bên cạnh đó, với tình trạng giá nhà đất ngày càng leo thang, thế hệ trẻ ngày nay không tìm kiếm những căn hộ có diện tích quá lớn. Họ thường tìm kiếm các căn vừa phải, với giá hợp lý nhưng cần được thiết kế thông minh, đủ công năng hiện đại với 2 phòng ngủ, một phòng khách, không gian bếp riêng biệt… - XU HƯỚNG MUA NHÀ CỦA GIỚI TRẺ HIỆN NAY",['thế hệ Y'],[],Filter))
+    List_vertex.append(vertex("Bên cạnh đó, với tình trạng giá nhà đất ngày càng leo thang, thế hệ trẻ ngày nay không tìm kiếm những căn hộ có diện tích quá lớn. Họ thường tìm kiếm các căn vừa phải ở ngoại ô, với giá hợp lý nhưng cần được thiết kế thông minh, đủ công năng hiện đại với 2 phòng ngủ, một phòng khách, không gian bếp riêng biệt… - XU HƯỚNG MUA NHÀ CỦA GIỚI TRẺ HIỆN NAY",['thế hệ Y'],[],Filter))
 
     if User.price['value']:
         Filter = seach_space(User.price['value']*1.3,None,None,None, None,2)
